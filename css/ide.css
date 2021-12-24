@@ -6,7 +6,12 @@ html, body {
 }
 
 body {
-    background: url(/images/judge0_background.png) no-repeat center center fixed;
+   
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    
+
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -36,9 +41,11 @@ body {
 #site-navigation {
     border-radius: 0;
     margin: 0;
-    background: #1e1e1e;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    height: 45px;
+    height: 60px;
 }
 
 #navigation-message {
@@ -81,10 +88,11 @@ body {
 }
 
 #site-header {
-    padding-left: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+   border-radius: 0;
 }
+
+
+
 
 #site-header h2 {
     display: inline;
@@ -112,7 +120,9 @@ body {
 }
 
 #site-footer {
-    color: #41a5f1;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    
     left: 0;
     text-align: center;
     width: 100%;
